@@ -1,10 +1,12 @@
 ###
 #
-# Makefile for Docker projects
+# 	Makefile for Docker projects
 #
-# Author: Yves Vindevogel (vindevoy)
-# Version: 1.0.0
-# Date: 2020-10-22
+# 	Author: Yves Vindevogel (vindevoy)
+# 	Version: 1.0.1
+# 	Date: 2020-10-22
+#
+#	Fixes: Added the SHELL directive to make sure BASH is used
 #
 ###
 
@@ -141,3 +143,15 @@ sysprune:
 # https://www.codacy.com/blog/five-ways-to-slim-your-docker-images/
 # https://github.com/jwilder/docker-squash
 #
+
+###
+#
+# 	Version history
+#
+# 	Version: 1.0.0
+# 	Author: Yves Vindevogel (vindevoy)
+# 	Date: 2019-10-29
+#
+# 	Initial version
+#
+###
