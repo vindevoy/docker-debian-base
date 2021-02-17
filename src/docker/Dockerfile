@@ -1,10 +1,10 @@
 ###
 #
-#   Version 1.1.0
+#   Version 1.2.0
 #	Yves Vindevogel (vindevoy)
 #	2021-02-17
 #
-#	Features: added apt-utils
+#	Features: added dialog
 #
 ###
  
@@ -19,6 +19,7 @@ RUN apt-get update -y
 RUN apt-get upgrade -y
 
 RUN apt-get install apt-utils --no-install-recommends -y
+RUN apt-get install dialog --no-install-recommends -y
 
 RUN apt-get autoremove
 RUN apt-get clean all
@@ -32,6 +33,12 @@ CMD ["/bin/sh"]
 ###
 #
 #   Version history
+#
+#   Version 1.1.0
+#	Yves Vindevogel (vindevoy)
+#	2021-02-17
+#
+#	Features: added apt-utils
 #
 #   Version 1.0.0
 #	Yves Vindevogel (vindevoy)
