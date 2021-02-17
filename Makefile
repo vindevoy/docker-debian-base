@@ -2,8 +2,8 @@
 #
 # 	Makefile for Docker projects
 #
-# 	Author: Yves Vindevogel (vindevoy)
 # 	Version: 1.0.1
+# 	Author: Yves Vindevogel (vindevoy)
 # 	Date: 2020-10-22
 #
 #	Fixes: Added the SHELL directive to make sure BASH is used
@@ -22,7 +22,7 @@
 
 IMAGE_REPO=vindevoy
 IMAGE_NAME=debian10-base
-IMAGE_VERSION=1.0.0
+IMAGE_VERSION=1.1.0
 
 
 ######################
