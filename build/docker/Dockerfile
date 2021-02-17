@@ -6,6 +6,11 @@ ARG TZ_REGION=Europe
 ARG TZ_CITY=Brussels
 
 RUN set -x && \ 
+    apt-get update -y && \ 
+    apt-get upgrade -y && \ 
+    apt-get install apt-utils --no-install-recommends -y && \ 
+    apt-get autoremove && \ 
+    apt-get clean all && \ 
     rm -f /etc/localtime && \ 
     ln -s /usr/share/zoneinfo/$TZ_REGION/$TZ_CITY /etc/localtime
 
