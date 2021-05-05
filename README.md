@@ -1,6 +1,6 @@
-# docker-debian10-base
+# docker-debian-base
 
-Debian 10 base image
+Debian base image
 
 ## Purpose
 
