@@ -21,8 +21,8 @@
 
 
 IMAGE_REPO=vindevoy
-IMAGE_NAME=debian10-base
-IMAGE_VERSION=1.2.0
+IMAGE_NAME=debian-base
+IMAGE_VERSION=11.0
 
 
 ######################
