@@ -1,14 +1,14 @@
 ###
 #
-#   Version 11.0
+#   Version 11.1
 #	Yves Vindevogel (vindevoy)
 #	2022-02-04
 #
-#	Features: added dialog
+#	Features: Updated Debian version
 #
 ###
  
-FROM debian:11.0-slim
+FROM debian:11.1-slim
 
 LABEL maintainer="Yves Vindevogel (vindevoy) - yves.vindevogel@asynchrone.com"
 
@@ -33,6 +33,12 @@ CMD ["/bin/sh"]
 ###
 #
 #   Version history
+#
+#   Version 11.0
+#	Yves Vindevogel (vindevoy)
+#	2022-02-04
+#
+#	Features: Updated Debian version
 #
 #   Version 1.2.0
 #	Yves Vindevogel (vindevoy)
