@@ -16,7 +16,6 @@ ARG TZ_REGION=Europe
 ARG TZ_CITY=Brussels
 
 RUN apt-get update -y
-RUN apt-get upgrade -y
 RUN apt-get dist-upgrade -y
 
 RUN apt-get install apt-utils --no-install-recommends -y

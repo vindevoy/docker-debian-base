@@ -7,7 +7,6 @@ ARG TZ_CITY=Brussels
 
 RUN set -x && \ 
     apt-get update -y && \ 
-    apt-get upgrade -y && \ 
     apt-get dist-upgrade -y && \ 
     apt-get install apt-utils --no-install-recommends -y && \ 
     apt-get install dialog --no-install-recommends -y && \ 
