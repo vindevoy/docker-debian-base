@@ -15,11 +15,13 @@ LABEL maintainer="Yves Vindevogel (vindevoy) - yves.vindevogel@asynchrone.com"
 ARG TZ_REGION=Europe
 ARG TZ_CITY=Brussels
 
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN apt-get update -y
 RUN apt-get dist-upgrade -y
 
 RUN apt-get install apt-utils --no-install-recommends -y
-RUN apt-get install dialog --no-install-recommends -y
+# RUN apt-get install dialog --no-install-recommends -y
 
 RUN apt-get autoremove
 RUN apt-get clean all
