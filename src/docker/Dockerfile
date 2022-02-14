@@ -5,6 +5,7 @@
 #	2022-02-04
 #
 #	Features: Updated Debian version
+#             Added the DEBIAN_FRONTEND env var
 #
 ###
  
@@ -21,7 +22,6 @@ RUN apt-get update -y
 RUN apt-get dist-upgrade -y
 
 RUN apt-get install apt-utils --no-install-recommends -y
-# RUN apt-get install dialog --no-install-recommends -y
 
 RUN apt-get autoremove
 RUN apt-get clean all
